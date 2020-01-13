@@ -1,0 +1,23 @@
+{
+  "name": "block_markup",
+  "version": "1.0.0",
+  "description": "block markup",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria Dyka",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.24.4",
+    "sass-loader": "^8.0.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
